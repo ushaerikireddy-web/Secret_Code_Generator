@@ -29,11 +29,17 @@ The program handles both uppercase and lowercase letters and skips non-alphabet 
 
 
 •	The program displays a menu with three options: Encode, Decode, and Exit.
+
 •	When the user selects 1 (Encode), the program asks for a text input (Usha) and a shift value (2).
+
 •	Each alphabet character is shifted forward by the given number using ASCII values while keeping the same case (uppercase/lowercase).
+
 •	For the input Usha and shift 2, the letters change as: U→W, s→u, h→j, a→c.
+
 •	The encoded result Wujc is displayed on the screen.
+
 •	Non-alphabet characters (spaces, symbols) are not changed during encoding.
+
 ✅ This output confirms the program works as a Caesar Cipher encoding.
 
 #### If we choose :  2
@@ -57,6 +63,7 @@ The program handles both uppercase and lowercase letters and skips non-alphabet 
 
 
 •	The user chose option 3 (Exit) from the menu, which tells the program to terminate.
+
 •	The program responds with “Existing...” (likely a typo for “Exiting...”) and stops running.
 
 
@@ -65,4 +72,5 @@ The program handles both uppercase and lowercase letters and skips non-alphabet 
 
 
 •	The user entered 10, which is not a valid option in the menu (only 1, 2, or 3 are valid).
+
 •	The program responds with “Invalid...”, indicating the input is not recognized.
